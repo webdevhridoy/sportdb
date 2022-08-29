@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e6707f06ff.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="container text-center bg-dark text-white p-2 my-2">
+            <h1>Let's Find Sports! Players</h1>
+        </div>
+    </header>
+    <!-- Search Filter -->
+    <section>
+        <div class="container">
+            <div class="input-group mb-3">
+                <input id="search-field" type="text" class="form-control" placeholder="Recipient's username"
+                    aria-label="Search your best players" aria-describedby="button-addon2">
+                <button onclick="findPlayers()" class="btn btn-outline-secondary" type="button"
+                    id="player-search">Search</button>
+            </div>
+        </div>
+    </section>
+    <!-- Search palyer area -->
+    <section>
+        <div class="container ">
+            <div id="players-container" class="row row-cols-1 row-cols-md-3 g-4 my-2">
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="sports.js"></script>
+</body>
+
+</html>
